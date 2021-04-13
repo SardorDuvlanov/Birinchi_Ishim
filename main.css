@@ -1,0 +1,92 @@
+.container 
+{
+width: 600px;
+margin: 0 auto;
+}
+.block
+{
+width: 200px;
+height: 200px;
+text-align: center;
+padding: 50px;
+display: inline-block;
+box-sizing: border-box;
+float: left;
+font-family: Arial;
+font-size: 20px;
+border-radius: 50px;
+border: 5px solid aqua;
+}
+.blue
+{
+    background-color: #000088;
+    color: #fff;  
+}
+.blue:hover
+{
+    background-color: #0000ff;
+    -webkit-transform: scale(1.1); 
+}
+.violet
+{
+    background-color: #880088;
+    color: #fff;
+}
+.violet:hover
+{
+    background-color: #8800ff;
+    -webkit-transform: scale(1.1);  
+}
+.red
+{
+    background-color: #880000;
+    color: #fff;
+}
+.red:hover
+{
+    background-color: #ff0088;
+    -webkit-transform: scale(1.1);  
+}
+body {
+    background-image: url(img/images/photo.jpg);
+    background-size: 1350px;
+    hieght: 800px;
+    
+}
+.logo
+{
+    width: 100px;
+    padding-bottom: 0px;
+}
+.centerblock
+{
+    font-size: 12px;
+    color: rgb(9, 182, 250);
+}
+.centerblock:hover
+{
+    -webkit-transform: scale(2.0); 
+    transition: all 5.0s ease;  
+}
+@media screen and (max-width: 600px) and (min-width:100px)
+{
+.block 
+{
+    height: 40px;
+    width: 560px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    float: none;
+}
+.centerblock font
+{
+    display: none;
+}
+.centerblock img
+{
+    width: 60px;
+
+}
+}
+    
+}
